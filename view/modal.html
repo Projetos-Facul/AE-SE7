@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="../src/css/modal.css">
+</head>
+<body>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Publicação de vaga</h2>
+          <span class="close">&times;</span>
+        </div>
+        <hr>
+        <div class="modal-body">
+          <form id="frmVaga" class="form-inline">
+            <table>
+              <tr>
+                <td class="leftTable">
+                  <label for="btnWork">Tipo de vaga:</label>
+                  <button type="button" id="btnWork" class="btn-work" title="Trabalho"><i class="fas fa-hotel fa-lg"></i></button>
+                  <input type="radio" id="Work" name="Work" class="hidden" value="Work" checked>
+                  <button type="button" id="btnProject" class="btn-project" title="Projeto"><i class="fas fa-user-graduate fa-lg"></i></button>
+                  <input type="radio" id="Project" name="Project" class="hidden" value="Project">
+                </td>
+                <td class="rightTable">
+                  <div class="TituloVaga">
+                    <label for="Titulo">Titulo da vaga:</label>
+                    <input type="text" id="Titulo" name="Titulo">
+                  </div>
+                </td>
+              </tr>
+            </table>
+            <table>
+              <tr>
+                <td class="descricaoTable">
+                  <label>Descrição:</label>
+                  <textarea id="Descricao" rows="12"></textarea>
+                </td>
+              </tr>
+            </table>
+            <table>
+              <tr>
+                <td>
+                  <label>Selecionar Tags:</label>
+                  <div class="selectDiv">
+                    <select multiple class="chosen-select" id="Tags" data-placeholder="Selecione uma Tag...">
+                      <option value="CCO">Ciências da computação</option>
+									  	<option value="ADM">Administração</option>
+									  	<option value="JRN">Jornalismo</option>
+									  	<option value="ENG">Engenharia Elétrica</option>
+									  	<option value="DRT">Direito</option>
+                      <option value="PRJ">Projeto</option>
+                    </select>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+        <hr>
+        <div class="modal-footer">
+            <button type="submit" class="btnPublicar">Publicar <i class="fas fa-paper-plane"></i></button>
+        </div>
+      </div>
+    </div>
+
+<script src="../src/js/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.jquery.min.js"></script>
+<link href="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.min.css" rel="stylesheet"/>
+<script src="../src/js/modal.js"></script>
+
+</body>
+</html>

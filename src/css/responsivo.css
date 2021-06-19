@@ -1,0 +1,47 @@
+@media only screen and (max-width: 900px) {
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 70px;
+    }
+    .cardPerfil {
+        position: static;
+    }
+
+    /* MAIN NAVBAR */
+    nav {
+        z-index: 9999;
+    }
+    nav ul.nav-list li span {
+        display: none;
+    }
+    nav ul.nav-list li {
+        height: 50px;
+        width: 50px;
+        display: flex;
+    }
+    nav ul.nav-list li a{
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+    }
+    /* /MAIN NAVBAR */
+
+    /* cardPrincipal */
+    .cardPrincipal {
+        margin: 24px 10px 0px 10px;
+    }
+    /* /cardPrincipal */
+
+    /* VAGAS */
+    .histVagas {
+        margin: 0px 10px 0px 10px;
+    }
+    .histVagas .cardVaga footer {
+        display: flex;
+        flex-direction: column;
+    }
+    /* /VAGAS */
+}

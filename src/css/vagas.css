@@ -1,0 +1,68 @@
+.histVagas {
+    margin: 100px 150px 50px 500px;
+}
+
+.cardVaga {
+    background-color: #ffffff;
+    padding: 12px 12px 8px 12px;
+    border-radius: 8px;
+    margin-top: 24px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.cardVaga hr {
+    margin: 8px 0px 8px 0px;
+}
+
+.cardVaga header {
+    display: flex;
+    align-items: center;
+}
+
+.cardVaga header div {
+    background-color: #00A0FF;
+    border-radius: 50%;
+    height: 38px;
+    width: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+}
+
+.cardVaga .fa-hotel {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.cardVaga .cardVagaTexto {
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: justify;
+}
+
+.cardVaga .cardVagaTexto ul {
+    margin: 8px 0px 8px 20px;
+}
+
+.cardVaga footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardVaga footer div {
+    display: flex;
+    align-items: center;
+}
+
+.cardVaga footer div img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.cardVaga footer .sectionTags {
+    margin-top: 6px;
+}

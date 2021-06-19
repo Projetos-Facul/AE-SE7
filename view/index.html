@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SE7</title>
+
+    <script src="../src/js/jquery-3.6.0.min.js"></script>
+    <script src="../src/js/chosen.min.js"></script>
+    <link rel="stylesheet" href="../src/css/chosen.css">
+
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="../src/css/index.css">
+    <link rel="stylesheet" href="../src/css/cardPerfil.css">
+    <link rel="stylesheet" href="../src/css/vagas.css">
+    <link rel="stylesheet" href="../src/css/scrollBar.css">
+    <link rel="stylesheet" href="../src/css/modal.css">
+    <link rel="stylesheet" href="../src/css/responsivo.css">
+</head>
+<body>
+    <nav>
+        <img class="logo" src="../img/logo_f_azul.png">
+        <ul class="nav-list">
+            <li><a href="index.html"><i class="fas fa-home"></i><span>Home</span></a></li>
+            <li><a href="seguirTags.html"><i class="fas fa-tags"></i><span>Seguir Tags</span></a></li>
+            <li><a href="perfil.html"><i class="fas fa-user"></i><span>Meu Perfil</span></a></li>
+        </ul>
+        <div class="nav-right">
+            <a href="#" id="logout"><i class="fas fa-sign-out-alt"></i></a>
+        </div>
+    </nav>
+
+    <section class="conteudo">
+        <section class="cardPerfil">
+            <header>
+                <div class="fotoPerfil">
+                    <div>
+                        <img src="../img/user.png">
+                    </div>
+                </div>
+                <div class="info">
+                    <p class="nome">Samuel Mayer Rufino</p>
+                    <p class="curso">Aluno de Ciencias da computação</p>
+                </div>
+            </header>
+            <hr>
+            <section class="sectionTags">
+                <p>Seguindo:</p>
+                <div class="tag" style="background-color: #00B9E1;">Ciencias da computação</div>
+                <div class="tag" style="background-color: #8728FF;">Projetos</div>
+                <div class="tag" style="background-color: #00F418;">Estagios</div>
+                <div class="tag" style="background-color: #00CB82;">Desenvolvedor Junior</div>
+                <div class="tag" style="background-color: #EF2929;">Front - End</div>
+            </section>
+            <hr>
+            <section class="sectionPubli">
+                <p>Criar publicação:</p>
+                <a href="#" id="btnFrmVagas" class="frmVagas">Abrir formulario <i class="fas fa-plus"></i></a>
+            </section>
+        </section>
+
+        <section class="histVagas">
+            <div class="cardVaga">
+                <header>
+                    <div>
+                        <i class="fas fa-hotel"></i>
+                    </div>
+                    <h2>Desenvolvedor Front-end Junior</h2>
+                </header>
+                <hr>
+                <div class="cardVagaTexto">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+                <hr>
+                <footer>
+                    <div>
+                        <img src="../img/user.png">
+                        <p>Mateus Platinetty Pompermayer</p>
+                    </div>
+                    <section class="sectionTags">
+                        <div class="tag" style="background-color: #00B9E1;">Ciencias da computação</div>
+                        <div class="tag" style="background-color: #8728FF;">Projetos</div>
+                        <div class="tag" style="background-color: #00F418;">Estagios</div>
+                        <div class="tag" style="background-color: #00CB82;">Desenvolvedor Junior</div>
+                        <div class="tag" style="background-color: #EF2929;">Front - End</div>
+                    </section>
+                </footer>
+            </div>
+
+            <div class="cardVaga">
+                <header>
+                    <div>
+                        <i class="fas fa-hotel"></i>
+                    </div>
+                    <h2>Desenvolvedor Front-end Junior</h2>
+                </header>
+                <hr>
+                <div class="cardVagaTexto">
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                    <ul>
+                        <li>Lorem Ipsum is simply dummy text;</li>
+                        <li>Lorem Ipsum is simply dummy text;</li>
+                        <li>Lorem Ipsum is simply dummy text;</li>
+                    </ul>
+                </div>
+                <hr>
+                <footer>
+                    <div>
+                        <img src="../img/user.png">
+                        <p>Mateus Platinetty Pompermayer</p>
+                    </div>
+                    <section class="sectionTags">
+                        <div class="tag" style="background-color: #00B9E1;">Ciencias da computação</div>
+                        <div class="tag" style="background-color: #8728FF;">Projetos</div>
+                        <div class="tag" style="background-color: #00F418;">Estagios</div>
+                        <div class="tag" style="background-color: #00CB82;">Desenvolvedor Junior</div>
+                        <div class="tag" style="background-color: #EF2929;">Front - End</div>
+                    </section>
+                </footer>
+            </div>
+
+            <div class="cardVaga">
+                <header>
+                    <div>
+                        <i class="fas fa-hotel"></i>
+                    </div>
+                    <h2>Desenvolvedor Front-end Junior</h2>
+                </header>
+                <hr>
+                <div class="cardVagaTexto">
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                    <ul>
+                        <li>Lorem Ipsum is simply dummy text;</li>
+                        <li>Lorem Ipsum is simply dummy text;</li>
+                        <li>Lorem Ipsum is simply dummy text;</li>
+                    </ul>
+                </div>
+                <hr>
+                <footer>
+                    <div>
+                        <img src="../img/user.png">
+                        <p>Mateus Platinetty Pompermayer</p>
+                    </div>
+                    <section class="sectionTags">
+                        <div class="tag" style="background-color: #00B9E1;">Ciencias da computação</div>
+                        <div class="tag" style="background-color: #8728FF;">Projetos</div>
+                        <div class="tag" style="background-color: #00F418;">Estagios</div>
+                        <div class="tag" style="background-color: #00CB82;">Desenvolvedor Junior</div>
+                        <div class="tag" style="background-color: #EF2929;">Front - End</div>
+                    </section>
+                </footer>
+            </div>
+            <div class="cardVaga">
+                <header>
+                    <div>
+                        <i class="fas fa-hotel"></i>
+                    </div>
+                    <h2>Desenvolvedor Front-end Junior</h2>
+                </header>
+                <hr>
+                <div class="cardVagaTexto">
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                    <ul>
+                        <li>Lorem Ipsum is simply dummy text;</li>
+                        <li>Lorem Ipsum is simply dummy text;</li>
+                        <li>Lorem Ipsum is simply dummy text;</li>
+                    </ul>
+                </div>
+                <hr>
+                <footer>
+                    <div>
+                        <img src="../img/user.png">
+                        <p>Mateus Platinetty Pompermayer</p>
+                    </div>
+                    <section class="sectionTags">
+                        <div class="tag" style="background-color: #00B9E1;">Ciencias da computação</div>
+                        <div class="tag" style="background-color: #8728FF;">Projetos</div>
+                        <div class="tag" style="background-color: #00F418;">Estagios</div>
+                        <div class="tag" style="background-color: #00CB82;">Desenvolvedor Junior</div>
+                        <div class="tag" style="background-color: #EF2929;">Front - End</div>
+                    </section>
+                </footer>
+            </div>
+        </section>
+    </section>
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Publicação de vaga</h2>
+          <span id="closeModal" class="close">&times;</span>
+        </div>
+        <hr>
+        <div class="modal-body">
+          <form id="frmVaga" class="form-inline">
+            <table>
+              <tr>
+                <td class="leftTable">
+                  <label for="btnWork">Tipo de vaga:</label>
+                  <button type="button" id="btnWork" class="btn-work" title="Trabalho"><i class="fas fa-hotel fa-lg"></i></button>
+                  <input type="radio" id="Work" name="Work" class="hidden" value="Work" checked>
+                  <button type="button" id="btnProject" class="btn-project" title="Projeto"><i class="fas fa-user-graduate fa-lg"></i></button>
+                  <input type="radio" id="Project" name="Project" class="hidden" value="Project">
+                </td>
+                <td class="rightTable">
+                  <div class="TituloVaga">
+                    <label for="Titulo">Titulo da vaga:</label>
+                    <input type="text" id="Titulo" name="Titulo">
+                  </div>
+                </td>
+              </tr>
+            </table>
+            <table>
+              <tr>
+                <td class="descricaoTable">
+                  <label>Descrição:</label>
+                  <textarea id="Descricao" rows="12"></textarea>
+                </td>
+              </tr>
+            </table>
+            <table>
+              <tr>
+                <td>
+                  <label>Selecionar Tags:</label>
+                  <div class="selectDiv">
+                    <select multiple class="chosen-select" id="selectTags" data-placeholder="Selecione uma Tag...">
+                        <option value="CCO">Ciências da computação</option>
+						<option value="ADM">Administração</option>
+						<option value="JRN">Jornalismo</option>
+						<option value="ENG">Engenharia Elétrica</option>
+						<option value="DRT">Direito</option>
+                        <option value="PRJ">Projeto</option>
+                    </select>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+        <hr>
+        <div class="modal-footer">
+            <button type="submit" class="btnPublicar">Publicar <i class="fas fa-paper-plane"></i></button>
+        </div>
+      </div>
+    </div>
+    <script src="../src/js/modal.js"></script>
+</body>
+</html>

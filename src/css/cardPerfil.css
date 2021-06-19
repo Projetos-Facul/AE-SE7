@@ -1,0 +1,104 @@
+.cardPerfil {
+    background-color: #ffffff;
+    width: 300px;
+    position: fixed;
+    top: 100px;
+    left: 150px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.cardPerfil header {
+    margin-bottom: 8px;
+}
+
+.cardPerfil header .fotoPerfil {
+    height: 50px;
+    background-color: #006ADD;
+    border-radius: 8px 8px 0px 0px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.cardPerfil header .fotoPerfil img {
+    position: absolute;
+    top: 15px;
+    left: 114px;
+    height: 76px;
+    width: 76px;
+    background-color: rgb(54, 54, 54);
+    border-radius: 50%;
+}
+
+.cardPerfil header .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cardPerfil header .info .nome {
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 4px;
+}
+
+.cardPerfil header .info .curso {
+    font-size: 16px;
+}
+
+.cardPerfil .sectionTags {
+    padding: 8px 8px 0px 8px;
+}
+
+.sectionTags .tag {
+    color: #ffffff;
+    white-space: nowrap;
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 100vh;
+    margin-bottom: 8px;
+}
+
+.cardPerfil .sectionTags p {
+    width: 100%;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.cardPerfil .sectionPubli {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardPerfil .sectionPubli p {
+    width: 100%;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.cardPerfil .sectionPubli .frmVagas {
+    color: #000000;
+    border: solid 1px rgba(0, 0, 0, 0.9);
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.cardPerfil .sectionPubli .frmVagas:hover {
+    border: 0;
+    background-color: #006ADD;
+    color: #ffffff;
+}
+.cardPerfil .sectionPubli .frmVagas:hover > * {
+    color: #ffffff;
+}
+
+.cardPerfil .sectionPubli .frmVagas i {
+    color: rgba(0, 0, 0, 0.9);
+}
